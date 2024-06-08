@@ -52,4 +52,6 @@ while True:
             current_state = 0
         state_t = 0
 
+    print(p.getJointInfo(pandaUid,1))
+
     p.stepSimulation()
